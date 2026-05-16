@@ -21,13 +21,11 @@ const experiences = [
       'TypeScript',
       'Rust',
       'PostgreSQL',
-      'Supabase',
-      'Product',
-      'AI / ML',
+      'Product Development',
       'Calendar APIs',
     ],
     bullets: [
-      'Building an AI workflow tool for students with attentional learning differences'
+      'Building AI workflow tool for students with attentional learning differences'
     ],
   },
   {
@@ -46,12 +44,12 @@ const experiences = [
   {
     id: 'stanford-space-initiative',
     company: 'Stanford Space Initiative',
-    role: 'Lead Developer',
+    role: 'Software Engineer',
     period: 'September 2024 – June 2025',
     location: 'Stanford, CA',
     tags: ['Python', 'Pandas', 'Matplotlib', 'Monte Carlo', 'GUI'],
     bullets: [
-      'Led development of GUI to visualize Monte Carlo launch simulations',    ],
+      'Led development of GUI to visualize Monte Carlo launch simulations'],
   },
   {
     id: 'palm-dental',
@@ -68,14 +66,13 @@ const experiences = [
   {
     id: 'blci',
     company: 'Barrio Logan College Institute',
-    role: 'Program Founder and Head Tutor',
+    role: 'Instruction Coordinator',
     period: 'February 2023 – November 2024',
     location: 'San Diego, CA',
     tags: ['Education', 'Curriculum Design', 'Mathematics', 'Program Leadership'],
     bullets: [
       <>
-        Founded and led the <strong>Learning Loss Recovery</strong> program for
-        underserved Hispanic high school students
+        Led a program for underserved Hispanic high school students
       </>
     ],
   },
@@ -85,7 +82,7 @@ const experiences = [
     role: 'COSMOS Engineering Intern',
     period: 'June 2023 – September 2023',
     location: 'La Jolla, CA',
-    tags: ['OnShape', 'Structural Engineering', 'Engineering Ethics', 'Wind Energy', 'Team Lead'],
+    tags: ['OnShape', 'Structural Engineering', 'Engineering Ethics',],
     bullets: [
       <>
         Led the development of a self-sustaining wind turbine

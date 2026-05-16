@@ -11,7 +11,7 @@ export default function About() {
             Stanford University
           </p>
           <p className="about-bio">
-            Passionate about software, AI/ML, and product engineering
+            Passionate about software, AI/ML, and product
           </p>
         </div>
         <div className="about-photo">

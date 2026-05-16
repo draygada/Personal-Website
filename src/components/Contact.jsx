@@ -102,7 +102,7 @@ export default function Contact() {
     <section id="contact" className="contact">
       <h2 className="section-title">Contact</h2>
       <p className="contact-blurb">
-        Reach out for projects, opportunities, or just to say hi — I’m always happy to connect.
+        I’m always happy to connect!
       </p>
       <ul className="contact-icons">
         {CONTACT_LINKS.map((item) => {
