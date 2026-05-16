@@ -1,0 +1,83 @@
+import '../styles/Education.css'
+
+const education = {
+  school: 'Stanford University',
+  degree: 'B.S. Mathematics',
+  period: '2023 – 2027',
+  math_courses: [
+    'MATH 51 – Linear Algebra & Multivariable Calculus',
+    'MATH 52 – Multivariable Integration',
+    'MATH 53 – Differential Equations',
+    'MATH 56 – Modern Mathematics',
+    'STATS 118 – Probability Theory for Statistical Inference',
+    'CS 103 – Discrete Mathematics',
+  ],
+  cs_courses: [
+    'CS 106X – Programming Methodologies',
+    'CS 106B – Data structures and Algorithms',
+    'CS 107 – Systems Programming',
+    'CS 146J – Fullstack Web Programming',
+    'EDUC 101 – Teaching and Learning',
+    'EDUC 475 – Entrepreneurship in Education',
+  ],
+  organizations: [
+    { name: 'Sigma Phi Epsilon', role: 'President' },
+    { name: 'Cardinal USA Powerlifting', role: 'Safety Officer' },
+    { name: 'Society of Latino Engineers', role: 'Member' },
+    { name: 'Colorstack', role: 'Fellow' },
+    { name: 'DE Shaw', role: 'Connect Invite' },
+  ],
+}
+
+export default function Education() {
+  return (
+    <section id="education" className="education">
+      <h2 className="section-title">Education</h2>
+
+      <div className="edu-school">
+        <div className="edu-school-header edu-accent-bar">
+          <div>
+            <p className="edu-school-name">{education.school}</p>
+            <p className="edu-degree">{education.degree}</p>
+          </div>
+          <span className="edu-period">{education.period}</span>
+        </div>
+      </div>
+
+      <div className="edu-block">
+        <div className="edu-accent-bar">
+          <div>
+            <p className="edu-school-name">Relevant Courses</p>
+            <div className="edu-course-columns">
+              <ul className="edu-course-column-list">
+                {education.math_courses.map((course) => (
+                  <li key={course}>{course}</li>
+                ))}
+              </ul>
+              <ul className="edu-course-column-list">
+                {education.cs_courses.map((course) => (
+                  <li key={course}>{course}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="edu-block">
+        <div className="edu-accent-bar">
+          <div>
+            <p className="edu-school-name">Organizations</p>
+            <ul className="edu-course-column-list">
+              {education.organizations.map((org) => (
+                <li key={org.name}>
+                  {org.name} – {org.role}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
