@@ -12,6 +12,15 @@ function IconGitHubMark({ className }) {
 }
 
 const projects = [
+    {
+    id: 'stack-daddy',
+    name: 'Stack Daddy - Google I/O Build with AI Hackathon',
+    period: 'May 2026',
+    description:
+      'Built an AI calisthenics coach that watches a recorded squat set, identifies form faults using Gemini vision, and delivers real-time voice feedback ',
+    tags: ["React", "Node.js", "WebSockets", "Google GenAI"," Gemini Live", "MediaPipe"],
+    link: 'https://github.com/draygada/StackDaddy',
+  },
   {
     id: 'personal-website',
     name: 'Personal Website',
@@ -47,6 +56,14 @@ const projects = [
     tags: ['Regression', 'Environmental Engineering', 'Python'],
     link:
       'https://drive.google.com/file/d/1H_j-HfVzzPrdBFu-VQYDMYXVlrLglz9s/view?usp=sharing',
+  },
+  {
+    id: 'aerospace-research',
+    name: 'Stanford SSI Monte-Carlo GUI',
+    period: 'September 2024 - June 2025',
+    description:
+      'Developed a Tkinter-based GUI to visualize Monte Carlo launch simulation results, helping propulsion, structures, and avionics teams make iterative design decisions',
+    tags: ["Python"," Monte Carlo Simulations", "Graphical User Interfaces"],
   },
 ]
 

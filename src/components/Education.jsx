@@ -24,7 +24,7 @@ const education = {
     { name: 'Sigma Phi Epsilon', role: 'President' },
     { name: 'Cardinal USA Powerlifting', role: 'Safety Officer' },
     { name: 'Society of Latino Engineers', role: 'Member' },
-    { name: 'Colorstack', role: 'Fellow' },
+    { name: 'ColorStack', role: 'Fellow' },
     { name: 'The D.E. Shaw Group', role: 'Connect Invite' },
   ],
 }
