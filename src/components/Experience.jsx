@@ -11,6 +11,17 @@ const experiences = [
     bullets: ['Returning to the Prime Tech team'],
   },
   {
+    id: 'gsb',
+    company: 'Stanford Graduate School of Business',
+    role: 'Research Assistant',
+    period: 'May 2026 - Present',
+    location: 'Stanford, CA',
+    tags: [],
+    bullets: [
+      'Building AI data visualization tool for Financial Decision-Making'
+    ],
+  },
+  {
     id: 'stealth-rumbo',
     company: 'Rumbo',
     companyLink: 'http://www.tryrumbo.com',
