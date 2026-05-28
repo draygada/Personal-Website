@@ -64,6 +64,20 @@ const experiences = [
     ],
   },
   {
+    id: 'ucsd-cosmos',
+    company: 'University of California, San Diego',
+    role: 'COSMOS Engineering Intern',
+    period: 'June 2023 – September 2023',
+    location: 'La Jolla, CA',
+    tags: ['OnShape', 'Structural Engineering', 'Engineering Ethics',],
+    bullets: [
+      <>
+        Led the development of a self-sustaining wind turbine
+        tower model — placed 2nd out of 17 teams
+      </>,
+    ],
+  },
+  {
     id: 'blci',
     company: 'Barrio Logan College Institute',
     role: 'Instruction Coordinator',
@@ -76,18 +90,17 @@ const experiences = [
       </>
     ],
   },
-  {
-    id: 'ucsd-cosmos',
-    company: 'University of California, San Diego',
-    role: 'COSMOS Engineering Intern',
-    period: 'June 2023 – September 2023',
-    location: 'La Jolla, CA',
-    tags: ['OnShape', 'Structural Engineering', 'Engineering Ethics',],
+    {
+    id: 'mlc',
+    company: 'Mathnasium Learning Center',
+    role: 'Mathematics Tutor',
+    period: 'July 2021 – July 2024',
+    location: 'Chula Vista, CA',
+    tags: ['Tutoring', 'Mathematics'],
     bullets: [
       <>
-        Led the development of a self-sustaining wind turbine
-        tower model — placed 2nd out of 17 teams
-      </>,
+        Tutored elementary to collegiate level mathematics
+      </>
     ],
   },
 ]
