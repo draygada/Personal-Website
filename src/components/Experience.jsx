@@ -2,15 +2,6 @@ import '../styles/Experience.css'
 
 const experiences = [
   {
-    id: 'amazon-2026',
-    company: 'Amazon',
-    role: 'Software Development Intern',
-    period: 'June 2026 – September 2026',
-    location: 'Seattle, WA',
-    tags: [],
-    bullets: ['Returning to the Prime Tech team'],
-  },
-  {
     id: 'gsb',
     company: 'Stanford Graduate School of Business',
     role: 'Research Assistant',
