@@ -34,18 +34,18 @@ const experiences = [
       'Building AI tools and agentic workflows for the Initiative for Financial Decision-Making'
     ],
   },
-  {
-    id: 'rumbo',
-    company: 'Rumbo',
-    companyLink: 'http://www.tryrumbo.com',
-    role: 'Founder',
-    period: 'December 2025 – Present',
-    location: 'Stanford, CA',
-    tags: [],
-    bullets: [
-      'Building AI workflow tool for students with attentional learning differences'
-    ],
-  },
+  // {
+  //   id: 'rumbo',
+  //   company: 'Rumbo',
+  //   companyLink: 'http://www.tryrumbo.com',
+  //   role: 'Founder',
+  //   period: 'December 2025 – Present',
+  //   location: 'Stanford, CA',
+  //   tags: [],
+  //   bullets: [
+  //     'Building AI workflow tool for students with attentional learning differences'
+  //   ],
+  // },
   {
     id: 'amazon',
     company: 'Amazon',
