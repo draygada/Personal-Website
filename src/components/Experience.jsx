@@ -2,30 +2,46 @@ import '../styles/Experience.css'
 
 const experiences = [
   {
+    id: 'gse',
+    company: 'Stanford Accelerator for Learning',
+    role: "Summer Fellow",
+    period: 'June 2026 - Present',
+    location: 'Stanford, CA',
+    tags: [],
+    bullets: [
+      'Building in EdTech'
+    ],
+  },
+  {
+    id: 'amazon2',
+    company: 'Amazon',
+    role: 'Software Development Intern',
+    period: 'June 2026 - Present',
+    location: 'Seattle, WA',
+    tags: ['Java','Lambda', 'Amazon Bedrock', 'Content Management Systems'],
+    bullets: [
+      'Summer 2026 - Prime Value Communication Team'
+    ],
+  },
+  {
     id: 'gsb',
     company: 'Stanford Graduate School of Business',
     role: 'Research Assistant',
     period: 'May 2026 - Present',
     location: 'Stanford, CA',
-    tags: [],
+    tags: ['TypeScript', 'FastAPI','SQLite','LangGraph', 'Docker'],
     bullets: [
-      'Building AI data visualization tool for Financial Decision-Making'
+      'Building AI tools and agentic workflows for the Initiative for Financial Decision-Making'
     ],
   },
   {
-    id: 'stealth-rumbo',
+    id: 'rumbo',
     company: 'Rumbo',
     companyLink: 'http://www.tryrumbo.com',
     role: 'Founder',
     period: 'December 2025 – Present',
     location: 'Stanford, CA',
-    tags: [
-      'TypeScript',
-      'Rust',
-      'PostgreSQL',
-      'Product Development',
-      'Calendar APIs',
-    ],
+    tags: [],
     bullets: [
       'Building AI workflow tool for students with attentional learning differences'
     ],
